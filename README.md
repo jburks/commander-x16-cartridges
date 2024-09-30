@@ -1,7 +1,11 @@
 # Commander X16 Cartridges
 
 These are just prototype/practice designs for making a simple cartridge
-for the Commander X16
+for the Commander X16.
+
+Footprints are available from:
+
+https://github.com/jkominek/x16expansion
 
 ## Simple Cart
 
