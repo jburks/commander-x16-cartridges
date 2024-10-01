@@ -176,14 +176,14 @@
 	(net 55 "D4")
 	(net 56 "D0")
 	(net 57 "!MEMWE")
-	(net 58 "!ROMBEN")
+	(net 58 "!CHIP1EN")
 	(net 59 "!MEMOE")
 	(net 60 "!ROMEN")
 	(net 61 "unconnected-(U3-~{Y4}-Pad11)")
 	(net 62 "unconnected-(U3-~{Y6}-Pad9)")
 	(net 63 "unconnected-(U3-~{Y2}-Pad13)")
 	(net 64 "unconnected-(U3-~{Y7}-Pad7)")
-	(net 65 "!RAMBEN")
+	(net 65 "unconnected-(U3-~{Y0}-Pad15)")
 	(net 66 "unconnected-(U3-~{Y5}-Pad10)")
 	(net 67 "unconnected-(U3-~{Y3}-Pad12)")
 	(footprint "CommanderX16Expansion:CommanderX16Cartridge"
@@ -1816,7 +1816,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SO14*")
-		(path "/d1931175-ad1a-48bd-b65a-c5789ffde6ce")
+		(path "/ac0f2402-2b00-45d8-828e-1bf4ccd82a2a")
 		(sheetname "Root")
 		(sheetfile "SimpleCart.kicad_sch")
 		(attr through_hole)
@@ -2774,7 +2774,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "!ROMBEN")
+			(net 58 "!CHIP1EN")
 			(pinfunction "CE")
 			(pintype "input")
 			(uuid "71dded6b-ade2-467f-aa61-e5fed750cb37")
@@ -3483,8 +3483,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "WRITE EN"
-			(at -5.05 0 0)
+		(property "Value" "WRITE ENABLE"
+			(at -6.75 0 0)
 			(layer "B.SilkS")
 			(uuid "755eea8a-8d7b-43f2-8ce2-a94c9154b74f")
 			(effects
@@ -4207,7 +4207,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 65 "!RAMBEN")
+			(net 58 "!CHIP1EN")
 			(pinfunction "~{Y1}")
 			(pintype "output")
 			(uuid "5c161c46-2cef-40e1-8037-24431743944a")
@@ -4218,7 +4218,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 58 "!ROMBEN")
+			(net 65 "unconnected-(U3-~{Y0}-Pad15)")
 			(pinfunction "~{Y0}")
 			(pintype "output")
 			(uuid "b80be2d6-eea0-434a-a786-52dcb0f983f4")
@@ -4264,7 +4264,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7k"
 			(at 2.54 -1.92 0)
 			(layer "B.Fab")
 			(uuid "a68f7db7-1077-4b9d-8bf8-1f0ab446ff65")
@@ -7661,8 +7661,80 @@
 		(layer "Edge.Cuts")
 		(uuid "04bb6cb9-b13b-44f9-840b-df9bdfcc03ff")
 	)
-	(gr_text "This side faces up"
-		(at 130.1 99 0)
+	(gr_text "+12V"
+		(at 56.7 123.9 90)
+		(layer "B.SilkS")
+		(uuid "6ac8ba48-7a0d-4b32-8a10-dfecfc967313")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SCL"
+		(at 125.3 124.6 90)
+		(layer "B.SilkS")
+		(uuid "6e4a309d-4d36-4f5a-8768-ac74521f864b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 61.7 124.6 90)
+		(layer "B.SilkS")
+		(uuid "701c92c2-35e9-4d91-8858-13c3f2e2eb7d")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "ROMB7"
+		(at 64.4 123.2 90)
+		(layer "B.SilkS")
+		(uuid "83b2d4a7-3c1b-4f9e-b2da-a6ca950ed8ec")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "-12V"
+		(at 130.4 123.8 90)
+		(layer "B.SilkS")
+		(uuid "aa806126-e1d6-437c-bd0d-4bb3bd4ec406")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "+5V"
+		(at 59.2 124.6 90)
+		(layer "B.SilkS")
+		(uuid "e4461d60-5a7e-402e-b930-a95240026a70")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Front of cartridge, label side"
+		(at 129.7 98.6 0)
 		(layer "B.SilkS")
 		(uuid "e56e3d86-3cbd-4063-bb77-e88795f1f442")
 		(effects
@@ -7673,20 +7745,56 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Rear of X16 --->"
-		(at 69.2 98.3 0)
+	(gr_text "GND\n"
+		(at 127.8 124.6 90)
 		(layer "B.SilkS")
-		(uuid "f7a9adde-cddb-4330-8b3e-090541f2bd75")
+		(uuid "f611c969-355a-43a8-bcb5-5850cb3ece17")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.75 0.75)
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "Cartridge PCB For the Commander X16 ONLY!\nThis will very likely not work in other systems.\nDo not attempt to use in a Famicom or NES!"
-		(at 93.3 101 0)
+	(gr_text "+12V"
+		(at 129.3 123.9 270)
+		(layer "F.SilkS")
+		(uuid "08c32313-c788-4fbe-9abd-4114850bf321")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 58.3 124.7 270)
+		(layer "F.SilkS")
+		(uuid "0ce82c22-e806-487b-833a-a1753bf20701")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "AUDIO L"
+		(at 60.8 122.6 270)
+		(layer "F.SilkS")
+		(uuid "58877a37-0218-4795-8733-d7b153d27013")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Cartridge PCB For the Commander X16 ONLY!\nDo not attempt to use in any other sytem\n(including NES/Famicom)"
+		(at 93 101.1 0)
 		(layer "F.SilkS")
 		(uuid "5aec960f-a831-463e-bb69-32742236a346")
 		(effects
@@ -7697,8 +7805,20 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "<-- Rear of X16"
-		(at 55.3 98.3 0)
+	(gr_text "5V"
+		(at 126.8 125.5 270)
+		(layer "F.SilkS")
+		(uuid "80a69219-eef0-4779-accc-63b2890b45d3")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Back of cartridge (not label side)"
+		(at 57.9 98 0)
 		(layer "F.SilkS")
 		(uuid "9248f159-9353-47e5-b299-dd424c94a06b")
 		(effects
@@ -7709,20 +7829,44 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "This side faces down"
-		(at 89.1 125.3 0)
+	(gr_text "-12V"
+		(at 55.9 123.8 270)
 		(layer "F.SilkS")
-		(uuid "b201c5bf-4b55-4265-bd01-0885741fb063")
+		(uuid "9bf4d94f-19fc-4cd7-b810-4bd6c7a3ee1f")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 124.3 124.6 270)
+		(layer "F.SilkS")
+		(uuid "a4a3003d-8ac8-4387-9b9a-f839936d5e07")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A11"
+		(at 121.9 124.6 270)
+		(layer "F.SilkS")
+		(uuid "b91059ce-e423-4c0c-9702-48b8794c73c9")
+		(effects
+			(font
+				(size 0.75 0.75)
 				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "Design By: Tim Soderstrom"
-		(at 57.1 105.4 0)
+		(at 58.3 105.2 0)
 		(layer "F.SilkS")
 		(uuid "c2f6bf82-fc5f-499f-94c8-e3b11ff559ae")
 		(effects
@@ -7732,6 +7876,110 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(segment
+		(start 78.75 103.75)
+		(end 79.609925 103.75)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "1ad4050a-d5ea-4229-9633-fe5c453458e6")
+	)
+	(segment
+		(start 72.8 109.7)
+		(end 78.75 103.75)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "1b6de4e5-7f93-4208-b397-9987ea1c0ba8")
+	)
+	(segment
+		(start 79.609925 103.75)
+		(end 80.225 103.134925)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "1e27df25-dc83-4bed-95b8-032a8f83cd8e")
+	)
+	(segment
+		(start 101.075 103.425)
+		(end 103.65 106)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "30c849aa-f500-4dec-9b7d-b98d8e747584")
+	)
+	(segment
+		(start 80.225 102.190075)
+		(end 81.315075 101.1)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "44fef902-33c9-4619-a2df-4808fd888d3d")
+	)
+	(segment
+		(start 83.9 101.1)
+		(end 86 103.2)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "563e5581-6a97-479b-8626-4d457ddc8fc3")
+	)
+	(segment
+		(start 100.85 103.2)
+		(end 101.075 103.425)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "66afde67-4ff5-4d12-93b9-7a8e5cb7e23b")
+	)
+	(segment
+		(start 81.315075 101.1)
+		(end 83.9 101.1)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "6bebb3c2-fef9-4a71-9712-148105d5dbf5")
+	)
+	(segment
+		(start 86 103.2)
+		(end 100.85 103.2)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "8e33001a-d510-4682-b48e-11a06de77a66")
+	)
+	(segment
+		(start 72.8 111.3)
+		(end 72.8 109.7)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "b580d6f9-0283-4e34-9df5-d1de75ceb0eb")
+	)
+	(segment
+		(start 80.225 103.134925)
+		(end 80.225 102.190075)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "b9a0e0c6-9489-45fc-a72d-2b0742d339ad")
+	)
+	(segment
+		(start 71.46 113.88)
+		(end 71.46 112.64)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "e861d67f-4994-4cce-9f6e-38e6d3f985ca")
+	)
+	(segment
+		(start 71.46 112.64)
+		(end 72.8 111.3)
+		(width 0.1)
+		(layer "B.Cu")
+		(net 0)
+		(uuid "e89b81e1-3798-41a3-a1b2-739ad5a9f2a8")
 	)
 	(segment
 		(start 93.69 123.58)
@@ -9916,110 +10164,6 @@
 		(layer "F.Cu")
 		(net 57)
 		(uuid "b84485fa-4bed-45b3-b75e-54a298ae3093")
-	)
-	(segment
-		(start 78.75 103.75)
-		(end 79.609925 103.75)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "1ad4050a-d5ea-4229-9633-fe5c453458e6")
-	)
-	(segment
-		(start 72.8 109.7)
-		(end 78.75 103.75)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "1b6de4e5-7f93-4208-b397-9987ea1c0ba8")
-	)
-	(segment
-		(start 79.609925 103.75)
-		(end 80.225 103.134925)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "1e27df25-dc83-4bed-95b8-032a8f83cd8e")
-	)
-	(segment
-		(start 101.075 103.425)
-		(end 103.65 106)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "30c849aa-f500-4dec-9b7d-b98d8e747584")
-	)
-	(segment
-		(start 80.225 102.190075)
-		(end 81.315075 101.1)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "44fef902-33c9-4619-a2df-4808fd888d3d")
-	)
-	(segment
-		(start 83.9 101.1)
-		(end 86 103.2)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "563e5581-6a97-479b-8626-4d457ddc8fc3")
-	)
-	(segment
-		(start 100.85 103.2)
-		(end 101.075 103.425)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "66afde67-4ff5-4d12-93b9-7a8e5cb7e23b")
-	)
-	(segment
-		(start 81.315075 101.1)
-		(end 83.9 101.1)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "6bebb3c2-fef9-4a71-9712-148105d5dbf5")
-	)
-	(segment
-		(start 86 103.2)
-		(end 100.85 103.2)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "8e33001a-d510-4682-b48e-11a06de77a66")
-	)
-	(segment
-		(start 72.8 111.3)
-		(end 72.8 109.7)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "b580d6f9-0283-4e34-9df5-d1de75ceb0eb")
-	)
-	(segment
-		(start 80.225 103.134925)
-		(end 80.225 102.190075)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "b9a0e0c6-9489-45fc-a72d-2b0742d339ad")
-	)
-	(segment
-		(start 71.46 113.88)
-		(end 71.46 112.64)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "e861d67f-4994-4cce-9f6e-38e6d3f985ca")
-	)
-	(segment
-		(start 71.46 112.64)
-		(end 72.8 111.3)
-		(width 0.1)
-		(layer "B.Cu")
-		(net 58)
-		(uuid "e89b81e1-3798-41a3-a1b2-739ad5a9f2a8")
 	)
 	(segment
 		(start 81.715 110.32)

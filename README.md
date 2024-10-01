@@ -15,17 +15,22 @@ Cartridges can also have I2C flash memory (for saving game states), and can use
 memory-mapped IO (MMIO) though it is *highly* recommended to use the `IO7`
 address range as cartridges have been given priority to this range over expansion cards.
 
-For more information, consult x16-docs 
+Be aware that the "front" of the cartridge (the side which would have a typical label) is actually 
+the back relative to a typical expansion card. Cartridges and expansion cards use the same slot.
+This was done so that X16's which have a side cartridge slot can have the cartridge label side up.
+
+For more information, consult the x16-docs. 
 
 ## Cartridge Options
 
 ### Simple Cart
 
-A no frills simple cartridge with a single ROM (512kb).
+A no frills simple cartridge with a single ROM (512kb) and discrete decode logic that is inherited 
+from the X16 Developer edition.
 
 ### 2Cart
 
-Similar to the above, but adds a RAM chip (512kb ROM, 512kb RAM)
+Similar to the above, but adds a RAM chip (512kb ROM, 512kb RAM). This is still a work in progress.
 
 ## Decode Explanation
 
@@ -102,4 +107,4 @@ The top addresses (`A18-A14`) are formed from the bottom 5 bits of the `ROMB` ad
 2^5 is 32, which is how many pages each chip can support.
 
 As noted above, the top `ROMB` bits are used for chip selects and thus each ROM does not 
-actually see those.
+actually see those. Using bigger or smaller RAM or ROM chips would change how this works.
