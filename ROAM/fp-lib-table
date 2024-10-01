@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "X16Expansion")(type "KiCad")(uri "${KIPRJMOD}/../parts/footprints/CommanderX16Expansion.pretty")(options "")(descr ""))
+)
