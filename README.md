@@ -1,5 +1,7 @@
 # Commander X16 Cartridges
 
+## Overview
+
 These are just prototype/practice designs for making a simple cartridge
 for the Commander X16. They have not yet been tested on a real X16.
 
@@ -21,16 +23,30 @@ This was done so that X16's which have a side cartridge slot can have the cartri
 
 For more information, consult the x16-docs. 
 
+## Chip Locations
+
+Unless otherwise indicated, all cartridges are meant for booting directly from the cartridge.
+This means the first chip (the one which is for ROM bankds 32-63) will be a 512k ROM. Developers
+that want thier program to actually boot from ROM still need to setup the ROM image correctly.
+
+For more information, consult the x16-docs. 
+
 ## Cartridge Options
 
 ### Simple Cart
 
 A no frills simple cartridge with a single ROM (512kb) and discrete decode logic that is inherited 
-from the X16 Developer edition.
+from the X16 Developer edition. Routed rather poorly as compared to ROAM.
 
-### 2Cart
+### ROAM
 
-Similar to the above, but adds a RAM chip (512kb ROM, 512kb RAM). This is still a work in progress.
+Similar to the above but is a 4-layer PCB and includes a RAM chip (get it? ROM + RAM = ROAM).
+The RAM is available in banks 64-95 though can be easily moved around with minor changes
+to the schematic and PCB.
+
+Big thanks to Joe Burks (Wavicle) for handling a majority of the routing which has made for a 
+gorgeous PCB layout and one that is also fairly easy to understand. The internal layers
+serve as ground planes.
 
 ## Decode Explanation
 
@@ -47,16 +63,16 @@ Since each RAM/ROM has 512k of 8-bit memory, it means we can have up to 8 512k c
 The first chip is the System ROM for X16 (it is for banks 0-31) which means the rest
 are available to cartridges.
 
-| Banks (Decimal) | Banks (Hex) | ROMB7-ROMB5 (Binary) | Chip           |
-| --------------- | ----------- | -------------------- | -------------- |
-| 00-31           | $00-1F      | 000                  | 0 (System ROM) |
-| 32-63           | $20-3F      | 001                  | 1              |
-| 64-95           | $40-5F      | 010                  | 2              |
-| 96-127          | $60-7F      | 011                  | 3              |
-| 128-159         | $80-9F      | 100                  | 3              | 
-| 160-191         | $A0-BF      | 101                  | 3              | 
-| 192-223         | $C0-DF      | 110                  | 3              | 
-| 224-256         | $E0-FF      | 111                  | 3              | 
+| Banks (Decimal) | Banks (Hex) | ROMB7-ROMB5 (Binary) | Chip              |
+| --------------- | ----------- | -------------------- | ----------------- |
+| 00-31           | $00-1F      | 000                  | 0 (System ROM)    |
+| 32-63           | $20-3F      | 001                  | 1 (Cart Boot ROM) | 
+| 64-95           | $40-5F      | 010                  | 2                 |
+| 96-127          | $60-7F      | 011                  | 3                 |
+| 128-159         | $80-9F      | 100                  | 3                 | 
+| 160-191         | $A0-BF      | 101                  | 3                 | 
+| 192-223         | $C0-DF      | 110                  | 3                 | 
+| 224-256         | $E0-FF      | 111                  | 3                 | 
 
 ### 74HCT138
 
