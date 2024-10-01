@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|124170000|130750000|a503fe86-bdc2-4172-a6ec-a0e8eef83da7|8cfc6713-a919-47f1-a6d0-02377c952809",
+        "unconnected_items|55590000|130750000|3e2bb006-7259-4bea-8895-e97e47dae093|94dfc599-63b1-4394-b722-23ab55c7c8fa",
+        "unconnected_items|55590000|130750000|4f7ea201-0030-4f48-82f0-b777b949c85e|ad68f130-5193-4a98-a896-dec0b20d82ea"
+      ],
       "meta": {
         "version": 2
       },
@@ -182,6 +186,7 @@
         0.1,
         0.2,
         0.3,
+        0.5,
         1.0
       ],
       "tuning_pattern_settings": {
