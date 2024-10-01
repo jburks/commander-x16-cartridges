@@ -2067,14 +2067,15 @@
 			)
 		)
 		(property "Value" "AS6C4008 (RAM)"
-			(at 7.625 -41.48 90)
-			(layer "F.Fab")
+			(at 7.625 -41.48 -90)
+			(layer "B.Fab")
 			(uuid "596161db-d0fb-4424-835c-bbe313f064bc")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-32_W15.24mm"
@@ -2276,14 +2277,15 @@
 			(uuid "9196045f-547a-4f92-b804-b8ca051776d9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.62 -19.05 90)
-			(layer "F.Fab")
+			(at 7.62 -19.05 -90)
+			(layer "B.Fab")
 			(uuid "46ec2db8-5fbe-4953-a043-fc3d20a90177")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(pad "1" thru_hole rect
