@@ -58,11 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "unconnected_items|124170000|130750000|a503fe86-bdc2-4172-a6ec-a0e8eef83da7|8cfc6713-a919-47f1-a6d0-02377c952809",
-        "unconnected_items|55590000|130750000|3e2bb006-7259-4bea-8895-e97e47dae093|94dfc599-63b1-4394-b722-23ab55c7c8fa",
-        "unconnected_items|55590000|130750000|4f7ea201-0030-4f48-82f0-b777b949c85e|ad68f130-5193-4a98-a896-dec0b20d82ea"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -183,8 +179,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1,
         0.2,
+        0.25,
         0.3,
         0.5,
         1.0
@@ -219,6 +215,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 1.25,
+          "drill": 0.75
         }
       ],
       "zones_allow_external_fillets": false
@@ -460,7 +464,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -470,9 +474,26 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.25,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0,
+        "via_diameter": 1.25,
+        "via_drill": 0.75,
         "wire_width": 6
       }
     ],
@@ -481,7 +502,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+5V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
