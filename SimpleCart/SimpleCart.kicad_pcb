@@ -7781,6 +7781,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "X16 SimpleCart v0.00"
+		(at 58.5 98.1 0)
+		(layer "F.SilkS")
+		(uuid "4b57e8bb-74e0-40c7-86a5-0ab7ce00944a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "AUDIO L"
 		(at 60.8 122.6 270)
 		(layer "F.SilkS")
@@ -7818,7 +7830,7 @@
 		)
 	)
 	(gr_text "Back of cartridge (not label side)"
-		(at 57.9 98 0)
+		(at 58.2 108 0)
 		(layer "F.SilkS")
 		(uuid "9248f159-9353-47e5-b299-dd424c94a06b")
 		(effects
