@@ -26,7 +26,7 @@ For more information, consult the x16-docs.
 ## Chip Locations
 
 Unless otherwise indicated, all cartridges are meant for booting directly from the cartridge.
-This means the first chip (the one which is for ROM bankds 32-63) will be a 512k ROM. Developers
+This means the first chip (the one which is for ROM banks 32-63) will be a 512k ROM. Developers
 that want thier program to actually boot from ROM still need to setup the ROM image correctly.
 
 For more information, consult the x16-docs. 
@@ -42,7 +42,8 @@ from the X16 Developer edition. Routed rather poorly as compared to ROAM.
 
 Similar to the above but is a 4-layer PCB and includes a RAM chip (get it? ROM + RAM = ROAM).
 The RAM is available in banks 64-95 though can be easily moved around with minor changes
-to the schematic and PCB.
+to the schematic and PCB. Note that RAM and ROM chips are not interchangeable as their 
+pinouts are slightly different.
 
 Big thanks to Joe Burks (Wavicle) for handling a majority of the routing which has made for a 
 gorgeous PCB layout and one that is also fairly easy to understand. The internal layers
