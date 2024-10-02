@@ -1,4 +1,4 @@
-23197959487498700
+23199687387678442
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6456,6 +6456,13 @@ commanderx16
 CommanderX16Expansion
 CommanderX16Expansion
 Commander X16 Expansion card edge connector
+commanderx16
+0
+60
+60
+CommanderX16Expansion
+CommanderX16SimpleCartridge
+Commander X16 cartridge edge connector and board outline
 commanderx16
 0
 60

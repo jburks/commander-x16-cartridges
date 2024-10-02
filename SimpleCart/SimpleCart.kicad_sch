@@ -3816,6 +3816,106 @@
 		(color 0 0 0 0)
 		(uuid "f14f8f02-cf5f-4ead-996f-648666c000ab")
 	)
+	(no_connect
+		(at 172.72 100.33)
+		(uuid "0db4876e-c765-422e-a3d7-32f46431f111")
+	)
+	(no_connect
+		(at 149.86 38.1)
+		(uuid "157ec909-dd6d-4bed-840d-54c01140ac9e")
+	)
+	(no_connect
+		(at 237.49 48.26)
+		(uuid "1d97e652-c29f-4859-9d65-5d784ff05898")
+	)
+	(no_connect
+		(at 172.72 95.25)
+		(uuid "21e747e9-8be1-4bc9-aee7-d15501f81f88")
+	)
+	(no_connect
+		(at 237.49 40.64)
+		(uuid "2fac3d0b-5cea-4ff2-afbb-b8a0ca693f42")
+	)
+	(no_connect
+		(at 172.72 92.71)
+		(uuid "362bbaf3-6ebf-4073-9b60-79c4892a53e2")
+	)
+	(no_connect
+		(at 237.49 45.72)
+		(uuid "43347126-2812-4266-9de1-f3d7af0aca7d")
+	)
+	(no_connect
+		(at 137.16 58.42)
+		(uuid "4b76b582-53b1-45c8-91db-c84fe5ce6ad6")
+	)
+	(no_connect
+		(at 172.72 110.49)
+		(uuid "5beb9375-f6c2-4079-91c7-0886c7f3b80e")
+	)
+	(no_connect
+		(at 172.72 102.87)
+		(uuid "5db6ab21-58e9-4cd8-90e5-45fefd688945")
+	)
+	(no_connect
+		(at 160.02 38.1)
+		(uuid "6faf73c9-f5aa-4ba6-a24b-27a8fdb4c49b")
+	)
+	(no_connect
+		(at 172.72 107.95)
+		(uuid "7243e068-e76e-47c2-97ab-82901e56b0f2")
+	)
+	(no_connect
+		(at 237.49 58.42)
+		(uuid "735097b3-10ab-441d-98e4-d1531646d91b")
+	)
+	(no_connect
+		(at 137.16 50.8)
+		(uuid "74665db9-a32d-4f45-aa2f-b028e1009faf")
+	)
+	(no_connect
+		(at 172.72 115.57)
+		(uuid "7a6df562-61c8-4773-887f-67904376466a")
+	)
+	(no_connect
+		(at 137.16 55.88)
+		(uuid "a1671ef2-e8f2-4aeb-beee-3824a003de11")
+	)
+	(no_connect
+		(at 172.72 87.63)
+		(uuid "a80198a5-d35c-4d6f-820a-b448d2f1607e")
+	)
+	(no_connect
+		(at 137.16 48.26)
+		(uuid "b906c8c3-3846-414a-b1d0-210a7db270a2")
+	)
+	(no_connect
+		(at 137.16 53.34)
+		(uuid "bacc7450-a538-4bcf-8a83-21d338fe91f4")
+	)
+	(no_connect
+		(at 172.72 118.11)
+		(uuid "d4989853-7002-494e-9d81-58887fd35f3f")
+	)
+	(no_connect
+		(at 237.49 53.34)
+		(uuid "ec5e4773-afac-4317-9f13-b4b84a49c9a1")
+	)
+	(no_connect
+		(at 237.49 55.88)
+		(uuid "f0169a5a-333f-4dd7-9209-bf670cac1e29")
+	)
+	(no_connect
+		(at 172.72 90.17)
+		(uuid "f9686508-64ba-49b5-b4d4-c316af46d092")
+	)
+	(no_connect
+		(at 237.49 50.8)
+		(uuid "fb4b2c53-2c6c-4c88-bc78-966da9e21520")
+	)
+	(no_connect
+		(at 172.72 97.79)
+		(uuid "fd9155a2-d710-49dd-8ce0-bd7c47e38f25")
+	)
 	(wire
 		(pts
 			(xy 212.09 53.34) (xy 214.63 53.34)
@@ -5779,7 +5879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 37.592 180.34 90)
 			(effects
 				(font
@@ -5847,7 +5947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 72.39 113.3348 0)
 			(effects
 				(font
@@ -5956,6 +6056,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54890658-6055-4e5e-b095-6256f37210f8")
+		(property "Reference" "C5"
+			(at 125.73 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 125.73 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 129.54 183.1848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ded619b8-48cf-48f8-b674-50ee1beca5b8")
+		)
+		(pin "2"
+			(uuid "2ca14288-c45e-4a16-8004-f489a4778fba")
+		)
+		(instances
+			(project "SimpleCart"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c3d6ba1-293e-49d0-b5aa-5bb4bede1c6c")
+		(property "Reference" "#PWR015"
+			(at 115.57 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 184.1499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b1799cf-74e0-4fdc-8a11-b55757545107")
+		)
+		(instances
+			(project "SimpleCart"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 154.94 134.62 0)
 		(unit 1)
@@ -6016,6 +6251,73 @@
 			(project "SimpleCart"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62b4bb61-9717-48d3-9bee-6e2fae18c5bf")
+		(property "Reference" "#PWR014"
+			(at 115.57 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15c9d4d4-81db-4965-a6ea-2eb5011ec50d")
+		)
+		(instances
+			(project "SimpleCart"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6128,6 +6430,71 @@
 			(project ""
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "684a9304-ec7b-43b3-b445-0dc551a69d3a")
+		(property "Reference" "#PWR016"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 129.54 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdafd442-1ac8-4b84-a787-e3fdb8ad2687")
+		)
+		(instances
+			(project "SimpleCart"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6688,7 +7055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 218.44 27.6352 0)
 			(effects
 				(font
@@ -7131,7 +7498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CommanderX16Expansion:CommanderX16Cartridge"
+		(property "Footprint" "CommanderX16Expansion:CommanderX16SimpleCartridge"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -7348,6 +7715,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 125.73 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc41d645-bf1d-4150-a76e-d6122c481ba5")
+		(property "Reference" "C4"
+			(at 125.73 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 129.54 171.7548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43d12115-1f19-4ff1-a3b8-c5843fd0221c")
+		)
+		(pin "2"
+			(uuid "b22a2aaf-59e2-4e25-8098-5cb838b533eb")
+		)
+		(instances
+			(project "SimpleCart"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HCT00")
 		(at 238.76 85.09 0)
 		(unit 2)
@@ -7446,6 +7881,71 @@
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 129.54 184.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d03bb328-f8ae-439a-82fa-63cf80866817")
+		(property "Reference" "#PWR017"
+			(at 125.73 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 134.62 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 129.54 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3270c66-5d5e-4951-9850-24f2b982eb8a")
+		)
+		(instances
+			(project "SimpleCart"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "#PWR017")
+					(unit 1)
 				)
 			)
 		)
@@ -7819,7 +8319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 225.0948 147.32 0)
 			(effects
 				(font
