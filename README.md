@@ -29,23 +29,19 @@ Unless otherwise indicated, all cartridges are meant for booting directly from t
 This means the first chip (the one which is for ROM banks 32-63) will be a 512k ROM. Developers
 that want their program to actually boot from ROM still need to setup the ROM image correctly.
 
-For more information, consult the x16-docs. 
+For more information, consult the x16-docs.
 
 ## Cartridge Options
 
 ### Simple Cart
 
 A no frills simple cartridge with a single ROM (512kb) and discrete decode logic that is inherited 
-from the X16 Developer edition.
-
-### SMple Cart
-
-SMD version of the Simple Cart (not yet developed).
+from the X16 Developer edition. This borrows some layout concepts from ROAM as made by Wavicle.
+Big thanks to him for these contributions.
 
 ### ROAM (ROM + RAM)
 
-Similar to the above but is a 4-layer PCB (the internal layers server as ground planes) 
-and includes space for an SRAM chip (get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
+Similar to the above but includes space for an SRAM chip (get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
 
 The ROM is available in banks 32-63 and the RAM in banks 64-95. The banks can be 
 swapped by cutting jumpers `JP3` and `JP4` and placing solder bridges over `JP2` and `JP5`.
