@@ -33,7 +33,10 @@ For more information, consult the x16-docs.
 
 ## Cartridge Options
 
-### Simple Cart
+### SimpleCart
+
+![SimpleCart Front](docs/images/SimpleCart-0.01-front.png "SimpleCart Front")
+![SimpleCart Back](docs/images/SimpleCart-0.01-back.png "SimpleCart Back")
 
 A no frills simple cartridge with a single ROM (512kb) and discrete decode logic that is inherited 
 from the X16 Developer edition. This borrows some layout concepts from ROAM as made by Wavicle.
