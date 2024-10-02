@@ -40,12 +40,17 @@ from the X16 Developer edition. Routed rather poorly as compared to ROAM.
 
 ### ROAM
 
-Similar to the above but is a 4-layer PCB and includes a RAM chip (get it? ROM + RAM = ROAM).
+Similar to the above but is a 4-layer PCB and includes space for an SRAM chip
+(get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
+
 The RAM is available in banks 64-95 though can be easily moved around with minor changes
 to the schematic and PCB. Note that RAM and ROM chips are not interchangeable as their 
 pinouts are slightly different.
 
-Big thanks to Joe Burks (Wavicle) for handling a majority of the routing which has made for a 
+The I2C NVRAM can store up to 8k (if using the chip provided in the BOM or one similar)
+and can be useful for storing save data.
+
+Huge thanks to Joe Burks (Wavicle) for handling a majority of the routing which has made for a 
 gorgeous PCB layout and one that is also fairly easy to understand. The internal layers
 serve as ground planes.
 
