@@ -18,8 +18,8 @@ memory-mapped IO (MMIO) though it is *highly* recommended to use the `IO7`
 address range as cartridges have been given priority to this range over expansion cards.
 
 Be aware that the "front" of the cartridge (the side which would have a typical label) is actually 
-the back relative to a typical expansion card. Cartridges and expansion cards use the same slot.
-This was done so that X16's which have a side cartridge slot can have the cartridge label side up.
+the back relative to a typical expansion card. This was done so that X16's which have a side cartridge 
+slot can have the cartridge label side up. Cartridges and expansion cards use the same slots.
 
 For more information, consult the x16-docs. 
 
@@ -27,7 +27,7 @@ For more information, consult the x16-docs.
 
 Unless otherwise indicated, all cartridges are meant for booting directly from the cartridge.
 This means the first chip (the one which is for ROM banks 32-63) will be a 512k ROM. Developers
-that want thier program to actually boot from ROM still need to setup the ROM image correctly.
+that want their program to actually boot from ROM still need to setup the ROM image correctly.
 
 For more information, consult the x16-docs. 
 
@@ -36,23 +36,25 @@ For more information, consult the x16-docs.
 ### Simple Cart
 
 A no frills simple cartridge with a single ROM (512kb) and discrete decode logic that is inherited 
-from the X16 Developer edition. Routed rather poorly as compared to ROAM.
+from the X16 Developer edition.
 
 ### ROAM
 
-Similar to the above but is a 4-layer PCB and includes space for an SRAM chip
-(get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
+Similar to the above but is a 4-layer PCB (the internal layers server as ground planes) 
+and includes space for an SRAM chip (get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
 
-The RAM is available in banks 64-95 though can be easily moved around with minor changes
-to the schematic and PCB. Note that RAM and ROM chips are not interchangeable as their 
-pinouts are slightly different.
+The ROM is available in banks 32-63 and the RAM in banks 64-95. The banks can be 
+swapped by cutting jumpers `JP3` and `JP4` and placing solder bridges over `JP2` and `JP5`.
+That would place the RAM in banks 32-63 which can be beneficial when testing cartridge code.
+The RAM can be loaded with cartridge data and then the X16 can be rebooted (leaving the 
+data in place) which should boot off the RAM as if it were ROM.
 
 The I2C NVRAM can store up to 8k (if using the chip provided in the BOM or one similar)
 and can be useful for storing save data.
 
 Huge thanks to Joe Burks (Wavicle) for handling a majority of the routing which has made for a 
-gorgeous PCB layout and one that is also fairly easy to understand. The internal layers
-serve as ground planes.
+gorgeous PCB layout and one that is also fairly easy to understand. Likewise he came up with
+the solder-jumper options as well as the I2C additions and layout.
 
 ## Decode Explanation
 
