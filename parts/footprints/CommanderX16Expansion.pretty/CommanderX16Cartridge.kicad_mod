@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -126,7 +129,7 @@
 		(uuid "6d5715b6-7821-4d22-8037-1fe19b290cb9")
 	)
 	(fp_line
-		(start -39 -6.75)
+		(start -39.5 -6.75)
 		(end -45 -6.75)
 		(stroke
 			(width 0.12)
@@ -136,8 +139,8 @@
 		(uuid "bb439d27-27b3-4594-ad8e-ed5ea7a3e2f8")
 	)
 	(fp_line
-		(start -39 -6.75)
-		(end -39 4)
+		(start -39 -6.25)
+		(end -39 3)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -146,8 +149,8 @@
 		(uuid "e1efd043-2e4b-4c3a-a66d-bc71dc2367b6")
 	)
 	(fp_line
-		(start -39 4)
-		(end 39 4)
+		(start -38 4)
+		(end 38 4)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -196,7 +199,17 @@
 		(uuid "763f8c87-4fba-4ce9-a460-feabd92ffc98")
 	)
 	(fp_line
-		(start 39 -6.75)
+		(start 39 3)
+		(end 39 -6.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "28094e63-e613-4753-9ee3-25586a0fc083")
+	)
+	(fp_line
+		(start 39.5 -6.75)
 		(end 45 -6.75)
 		(stroke
 			(width 0.12)
@@ -204,16 +217,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f360590a-6bdf-45d7-8784-15209360311e")
-	)
-	(fp_line
-		(start 39 4)
-		(end 39 -6.75)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "28094e63-e613-4753-9ee3-25586a0fc083")
 	)
 	(fp_line
 		(start 40.5 -31.9)
@@ -264,6 +267,50 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "a1e034ff-4437-4dd6-b181-f59cd9b1778d")
+	)
+	(fp_arc
+		(start -39.5 -6.75)
+		(mid -39.146447 -6.603553)
+		(end -39 -6.25)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "74499b82-ec2a-40a2-afcf-4338492a6f34")
+	)
+	(fp_arc
+		(start -38 4)
+		(mid -38.707107 3.707107)
+		(end -39 3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c86ce9a9-d61f-4164-8b53-7abbeec1d086")
+	)
+	(fp_arc
+		(start 39 -6.25)
+		(mid 39.146447 -6.603553)
+		(end 39.5 -6.75)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7938ba2f-ac34-48e2-ab12-76a4d1eb2bc4")
+	)
+	(fp_arc
+		(start 39 3)
+		(mid 38.707107 3.707107)
+		(end 38 4)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a6041aa4-130b-480f-8982-987f283085a2")
 	)
 	(fp_text user "Bevel"
 		(at 39.2 4 0)

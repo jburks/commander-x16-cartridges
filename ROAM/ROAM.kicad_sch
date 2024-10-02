@@ -5677,6 +5677,18 @@
 		(uuid "1efa7553-cf4a-4a9f-90e1-98356eb48ec9")
 	)
 	(junction
+		(at 114.3 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23122e19-3748-44e9-b858-8b939e18464d")
+	)
+	(junction
+		(at 114.3 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35d24f90-4759-4a3a-b440-b39f098701c5")
+	)
+	(junction
 		(at 144.78 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5954,6 +5966,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 166.37) (xy 102.87 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32691d75-e304-4de6-8515-392ec0d1aa94")
+	)
+	(wire
+		(pts
 			(xy 39.37 185.42) (xy 39.37 184.15)
 		)
 		(stroke
@@ -5981,6 +6003,16 @@
 			(type default)
 		)
 		(uuid "344c2d00-1f94-48b9-b9ec-2f2a975e19c9")
+	)
+	(wire
+		(pts
+			(xy 100.33 158.75) (xy 102.87 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3944fbbe-67b4-48c6-a12b-ef3e32e4fa68")
 	)
 	(wire
 		(pts
@@ -6334,6 +6366,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 161.29) (xy 114.3 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc169d2-a3d0-4db8-980f-14c1e6cfc771")
+	)
+	(wire
+		(pts
 			(xy 134.62 152.4) (xy 137.16 152.4)
 		)
 		(stroke
@@ -6341,6 +6383,16 @@
 			(type default)
 		)
 		(uuid "a06ff074-5cf5-4be3-8d22-5b68490d2205")
+	)
+	(wire
+		(pts
+			(xy 100.33 161.29) (xy 102.87 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14d17f8-00b3-4cb5-b270-e0fd380d0a31")
 	)
 	(wire
 		(pts
@@ -6361,6 +6413,16 @@
 			(type default)
 		)
 		(uuid "a6ae0142-485e-4081-b78f-8281c0fb4c2c")
+	)
+	(wire
+		(pts
+			(xy 110.49 166.37) (xy 114.3 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ebf4e0-0115-4b60-8981-fc19a23033aa")
 	)
 	(wire
 		(pts
@@ -6391,6 +6453,16 @@
 			(type default)
 		)
 		(uuid "a9ab39cc-30f2-4e69-8708-d385a578a27f")
+	)
+	(wire
+		(pts
+			(xy 110.49 158.75) (xy 114.3 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac2bf855-32d6-49e3-a4f9-92a0ac92abf0")
 	)
 	(wire
 		(pts
@@ -6584,6 +6656,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 163.83) (xy 102.87 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c193e4-2cf0-4772-af07-5234cc34aa6e")
+	)
+	(wire
+		(pts
+			(xy 110.49 163.83) (xy 114.3 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d962c593-a6f2-48e1-9970-4e556d09aa9e")
+	)
+	(wire
+		(pts
 			(xy 172.72 82.55) (xy 204.47 82.55)
 		)
 		(stroke
@@ -6744,6 +6836,17 @@
 		)
 		(uuid "12415d70-3019-4e95-abf9-a06f741d5946")
 	)
+	(label "FA0"
+		(at 100.33 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14e37afe-fd91-4e40-96e3-8ab153747446")
+	)
 	(label "SCL"
 		(at 154.94 161.29 0)
 		(fields_autoplaced yes)
@@ -6754,6 +6857,17 @@
 			(justify left bottom)
 		)
 		(uuid "1a9d6529-8b70-4d02-8051-ce2cb93f6baa")
+	)
+	(label "FA2"
+		(at 100.33 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f2944b9-58f3-40d0-ba83-ebcc3c5e03e2")
 	)
 	(label "A15"
 		(at 132.08 101.6 0)
@@ -6832,6 +6946,17 @@
 		)
 		(uuid "75d81c58-198f-4f0f-84c7-770195192eaf")
 	)
+	(label "FA1"
+		(at 100.33 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad29dd34-ca0d-4aa3-9984-d3a5abcc8319")
+	)
 	(label "ROMB6"
 		(at 185.42 74.93 0)
 		(fields_autoplaced yes)
@@ -6875,6 +7000,17 @@
 			(justify left bottom)
 		)
 		(uuid "e4c2c7e3-f79a-413d-a2f2-188d29f3530e")
+	)
+	(label "WP"
+		(at 100.33 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f385cf5f-5d40-435c-885d-7298a7abdae1")
 	)
 	(label "RWB"
 		(at 184.15 85.09 0)
@@ -9251,7 +9387,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 139.7 152.4 0)
 			(effects
 				(font
@@ -9609,7 +9745,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 72.39 113.3348 0)
 			(effects
 				(font
@@ -9677,7 +9813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 71.12 29.5148 0)
 			(effects
 				(font
@@ -9714,6 +9850,140 @@
 			(project "2Cart"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 106.68 163.83 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cf98542-0692-4143-ac10-058135b85968")
+		(property "Reference" "JP8"
+			(at 103.378 162.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JPFA2"
+			(at 110.998 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d2f1327-fe75-473c-91b4-b947846fe856")
+		)
+		(pin "1"
+			(uuid "b808ec36-5e22-4999-8f58-c2eaa430c6f7")
+		)
+		(instances
+			(project "ROAM"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "JP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 106.68 166.37 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e13e473-4c39-4bf7-bde9-6b6c9d131213")
+		(property "Reference" "JP9"
+			(at 103.378 165.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JPWP"
+			(at 110.998 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae777994-b38d-43b9-a5e1-bcc6c0e1d0c1")
+		)
+		(pin "1"
+			(uuid "fe514cb0-3c83-4571-86f0-259113aaf9aa")
+		)
+		(instances
+			(project "ROAM"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -10853,7 +11123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 218.44 27.6352 0)
 			(effects
 				(font
@@ -10956,6 +11226,73 @@
 			(project "2Cart"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 106.68 158.75 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "831c8b21-c079-4667-b2f5-76087c599dd6")
+		(property "Reference" "JP6"
+			(at 103.378 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JPFA0"
+			(at 110.998 157.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4bd558aa-8562-43cd-805f-ed87c04c2f60")
+		)
+		(pin "1"
+			(uuid "91421f1c-6280-43f1-a70f-1ec8b4ee229e")
+		)
+		(instances
+			(project "ROAM"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -11107,6 +11444,73 @@
 			(project "ROAM"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 106.68 161.29 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9ea335c-2b04-4f9e-bbdf-1b6dfaf90724")
+		(property "Reference" "JP7"
+			(at 103.378 160.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JPFA1"
+			(at 110.998 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 106.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 106.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87aad919-4f4d-4a0d-a5bf-980c5152b9bc")
+		)
+		(pin "1"
+			(uuid "9f6a67b6-e536-486f-8e0c-3870cf7def9f")
+		)
+		(instances
+			(project "ROAM"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -12535,7 +12939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 225.0948 147.32 0)
 			(effects
 				(font
