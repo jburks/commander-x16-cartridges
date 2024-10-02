@@ -104,7 +104,7 @@ that particular chip for the given bank range.
 ### 74HCT00
 
 This is a 4 gate NAND IC. This is used to invert signals and provide a logical AND
-function at the same time. For the cartridges it performs 3 functions:
+function at the same time. For the cartridges it performs 2 functions:
 
 #### ROM Enable
 
@@ -116,7 +116,7 @@ address space (`$C000-$FFFF`). In binary this is
 active-low (inverted) inputs, we provide this output to both the E0 and E1 pins 
 of the 74HCT138.
 
-#### PHI2 / RWB
+#### Read / Write (PHI2 / RWB)
 
 In this context, `PHI2` can be thought of as the system clock. `RWB` tell us if the 
 CPU is doing a read or a write. We combine these together because `RWB` alone could result
@@ -138,3 +138,9 @@ The top addresses (`A18-A14`) are formed from the bottom 5 bits of the `ROMB` ad
 
 As noted above, the top `ROMB` bits are used for chip selects and thus each ROM does not 
 actually see those. Using bigger or smaller RAM or ROM chips would change how this works.
+
+## Bill of Materials
+
+You can find the BOM in a LibreOffice .ODS formatted spreadsheet within the subdirectory
+for each cartridge. This includes links to Mouser though most of these components are common
+and should be found on Digikey and plenty of other places.

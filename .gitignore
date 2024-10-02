@@ -1,3 +1,5 @@
 *.zip
 *.lck
+*.gbr
+*.drl
 *-backups
