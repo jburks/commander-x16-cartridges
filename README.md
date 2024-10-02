@@ -41,6 +41,9 @@ Big thanks to him for these contributions.
 
 ### ROAM (ROM + RAM)
 
+![ROAM Front](docs/images/ROAM-0.03-front.png "ROAM Front")
+![ROAM Back](docs/images/ROAM-0.03-back.png "ROAM Back")
+
 Similar to the above but includes space for an SRAM chip (get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
 
 The ROM is available in banks 32-63 and the RAM in banks 64-95. The banks can be 
