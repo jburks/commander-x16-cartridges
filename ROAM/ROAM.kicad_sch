@@ -6814,6 +6814,16 @@
 		)
 		(uuid "ffc8ba00-0f79-469d-a494-144d3e7f17f6")
 	)
+	(text "IC has internal pulldowns"
+		(exclude_from_sim no)
+		(at 128.778 170.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac7d6a07-bf91-46c9-867b-73c89234705f")
+	)
 	(label "SDA"
 		(at 154.94 158.75 0)
 		(fields_autoplaced yes)

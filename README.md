@@ -38,7 +38,11 @@ For more information, consult the x16-docs.
 A no frills simple cartridge with a single ROM (512kb) and discrete decode logic that is inherited 
 from the X16 Developer edition.
 
-### ROAM
+### SMple Cart
+
+SMD version of the Simple Cart (not yet developed).
+
+### ROAM (ROM + RAM)
 
 Similar to the above but is a 4-layer PCB (the internal layers server as ground planes) 
 and includes space for an SRAM chip (get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
