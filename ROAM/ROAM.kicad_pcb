@@ -7525,6 +7525,7 @@
 		)
 	)
 	(footprint "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "d73bbe24-6bff-44c2-9ea6-db3ecb49359f")
 		(at 124.38 87.38 -90)
@@ -9044,7 +9045,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.27 -3.81 180)
+			(at 7.27 -3.81 360)
 			(layer "B.Fab")
 			(uuid "e0f3039c-3744-449f-9796-ce19deeae36e")
 			(effects
@@ -9918,7 +9919,7 @@
 	)
 	(gr_line
 		(start 130.88 85.58)
-		(end 130.88 80.58)
+		(end 130.88 79.15)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -11333,8 +11334,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "A0"
-		(at 124.48 85.78 90)
+	(gr_text "1"
+		(at 124.38 85.05 0)
 		(layer "B.SilkS")
 		(uuid "81e93002-52d5-452b-88d5-65a0e00f10a9")
 		(effects
@@ -11342,7 +11343,7 @@
 				(size 1.27 1.27)
 				(thickness 0.2)
 			)
-			(justify right mirror)
+			(justify mirror)
 		)
 	)
 	(gr_text "NVRAM\nWr.\nProt."
@@ -11357,8 +11358,8 @@
 			(justify right bottom mirror)
 		)
 	)
-	(gr_text "NVRAM Addr"
-		(at 130.48 82.18 0)
+	(gr_text "NVRAM Addr\n0x50 +"
+		(at 130.3 83.35 0)
 		(layer "B.SilkS")
 		(uuid "bdb90e4c-165d-4c90-98a5-53ad1b227776")
 		(effects
@@ -11369,8 +11370,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "A1"
-		(at 127.08 85.78 90)
+	(gr_text "2"
+		(at 126.92 85.05 0)
 		(layer "B.SilkS")
 		(uuid "d4908115-0825-49d8-8542-f0888d217de6")
 		(effects
@@ -11378,11 +11379,11 @@
 				(size 1.27 1.27)
 				(thickness 0.2)
 			)
-			(justify right mirror)
+			(justify mirror)
 		)
 	)
-	(gr_text "A2"
-		(at 129.68 85.78 90)
+	(gr_text "4"
+		(at 128.682238 85.05 0)
 		(layer "B.SilkS")
 		(uuid "e3557045-bb1d-4f42-9428-04c88c5154f8")
 		(effects
