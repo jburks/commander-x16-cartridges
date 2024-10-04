@@ -4,3 +4,13 @@ SimpleCart
     - Changed ground plane tolerances for better return current handling
     - Added ground vias
     - Version bump to 0.02
+
+ROAM
+
+    * 2024-10-04:
+        - Possible unconnected wire (JP1)
+        - Fix min silk thickness warnings
+        - Changed ground plane tolerances for better return current handling
+        - Added ground vias
+        - Version bump to 0.04
+
