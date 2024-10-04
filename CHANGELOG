@@ -1,0 +1,5 @@
+SimpleCart
+
+  * 2024-10-04:
+    - Changed ground plane tolerances for better return current handling
+    - Version bump to 0.02
