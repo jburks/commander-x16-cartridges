@@ -17,6 +17,10 @@ Cartridges can also have I2C flash memory (for saving game states), and can use
 memory-mapped IO (MMIO) though it is *highly* recommended to use the `IO7`
 address range as cartridges have been given priority to this range over expansion cards.
 
+Cartridges are meant to be housed inside a Famicom style shell. They use the same edge connector
+but are *NOT* compatible with the Famicon, NES, or any other system. **Do not attempt to plug 
+an X16 cartridge into any other system than an X16 or visa-versa!**
+
 Be aware that the "front" of the cartridge (the side which would have a typical label) is actually 
 the back relative to a typical expansion card. This was done so that X16's which have a side cartridge 
 slot can have the cartridge label side up. Cartridges and expansion cards use the same slots.
