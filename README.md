@@ -35,8 +35,8 @@ For more information, consult the x16-docs.
 
 ### SimpleCart
 
-![SimpleCart Front](docs/images/SimpleCart-0.01-front.png "SimpleCart Front")
-![SimpleCart Back](docs/images/SimpleCart-0.01-back.png "SimpleCart Back")
+![SimpleCart Front](docs/images/SimpleCart-0.02-front.png "SimpleCart Front")
+![SimpleCart Back](docs/images/SimpleCart-0.02-back.png "SimpleCart Back")
 
 A no frills simple cartridge with a single ROM (512kb) and discrete decode logic that is inherited 
 from the X16 Developer edition. This borrows some layout concepts from ROAM as made by Wavicle.
@@ -44,8 +44,8 @@ Big thanks to him for these contributions.
 
 ### ROAM (ROM + RAM)
 
-![ROAM Front](docs/images/ROAM-0.03-front.png "ROAM Front")
-![ROAM Back](docs/images/ROAM-0.03-back.png "ROAM Back")
+![ROAM Front](docs/images/ROAM-0.04-front.png "ROAM Front")
+![ROAM Back](docs/images/ROAM-0.04-back.png "ROAM Back")
 
 Similar to the above but includes space for an SRAM chip (get it? ROM + RAM = ROAM) as well as an I2C NVRAM chip. 
 
