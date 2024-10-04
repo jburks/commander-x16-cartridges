@@ -139,6 +139,22 @@ The top addresses (`A18-A14`) are formed from the bottom 5 bits of the `ROMB` ad
 As noted above, the top `ROMB` bits are used for chip selects and thus each ROM does not 
 actually see those. Using bigger or smaller RAM or ROM chips would change how this works.
 
+## Why 4-Layer and All the Ground VIAs?
+
+Folks looking at the PCBs may wonder why the need for a 4-layer board and all those ground
+VIAs? While it may not be strictly necessary at the 8 MHz speed the X16 runs at, timings
+can be tricky and the parallel bus can add some complexity. The 4-layer board allows using
+2 dedicated ground planes in an effort to avoid noise. Likewise the ground vias are so that
+signals traveling from the top to the bottom layer have a ground return close by to minimize
+the return travel to the nearest ground (and the nearest ground plane to the signal).
+
+[This](https://www.youtube.com/watch?v=XD1jqFaA-uI) video explains things well.
+
+While the 4-layer PCB adds a bit of cost (how much depends on the fab shop being used), it
+simplifies ground wire routing and lowers noise. Since the fab shop used for making test
+PCBs does not charge extra for more vias, the extra vias add zero cost while further lowering
+noise.
+
 ## Bill of Materials
 
 You can find the BOM in a LibreOffice .ODS formatted spreadsheet within the subdirectory
