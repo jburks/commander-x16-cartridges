@@ -1615,6 +1615,321 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -4287,23 +4602,25 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 -2.54 0)
+			(property "Reference" "J1"
+				(at 2.1941 -44.45 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "CommanderX16Expansion Alt"
-				(at 0 2.54 0)
+				(at 2.1941 -46.99 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "PCM_CommanderX16Expansion:CommanderX16Expansion"
+			(property "Footprint" "X16Expansion:CommanderX16Cartridge"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4948,7 +5265,7 @@
 					)
 				)
 				(pin power_out line
-					(at 0 48.26 270)
+					(at 1.27 48.26 270)
 					(length 6.35)
 					(name "+5V"
 						(effects
@@ -5290,8 +5607,8 @@
 					)
 				)
 				(pin power_out line
-					(at 0 48.26 270)
-					(length 6.35) hide
+					(at -1.27 48.26 270)
+					(length 6.35)
 					(name "+5V"
 						(effects
 							(font
@@ -5555,6 +5872,126 @@
 				)
 			)
 		)
+		(symbol "power:+5VD"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -5737,6 +6174,12 @@
 		(uuid "c3d4742c-1f11-48c1-ae39-dfb2dbaefdc2")
 	)
 	(junction
+		(at 153.67 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbaf1769-0410-436a-b5ed-ba8ebdc5e88b")
+	)
+	(junction
 		(at 72.39 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5753,6 +6196,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d53ff359-802f-4cb1-a034-e91e11a72c88")
+	)
+	(junction
+		(at 153.67 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d650040c-cd34-4d4e-9957-646248ae7369")
 	)
 	(junction
 		(at 226.06 146.05)
@@ -5956,6 +6405,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 24.13) (xy 153.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f22ad5d-1988-4154-b291-ef250cda69da")
+	)
+	(wire
+		(pts
 			(xy 158.75 181.61) (xy 158.75 163.83)
 		)
 		(stroke
@@ -6026,6 +6485,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 34.29) (xy 147.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4302abb4-208c-4189-b25d-83090c864d94")
+	)
+	(wire
+		(pts
 			(xy 127 99.06) (xy 137.16 99.06)
 		)
 		(stroke
@@ -6083,6 +6552,16 @@
 			(type default)
 		)
 		(uuid "5669cdc6-32fe-4655-bd42-62f768008732")
+	)
+	(wire
+		(pts
+			(xy 146.05 33.02) (xy 146.05 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5be5d67c-f95c-49eb-8505-9080885a7126")
 	)
 	(wire
 		(pts
@@ -6306,6 +6785,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 34.29) (xy 153.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a57025c-2fc0-465f-aca0-571297cc5fdd")
+	)
+	(wire
+		(pts
 			(xy 132.08 161.29) (xy 134.62 161.29)
 		)
 		(stroke
@@ -6486,6 +6975,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 34.29) (xy 153.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b20f7b1f-5a6b-4ebd-a7f9-11eaf8c7c998")
+	)
+	(wire
+		(pts
 			(xy 172.72 74.93) (xy 196.85 74.93)
 		)
 		(stroke
@@ -6533,6 +7032,16 @@
 			(type default)
 		)
 		(uuid "c0b4aba2-b60e-4910-b181-86cb39806ec3")
+	)
+	(wire
+		(pts
+			(xy 153.67 20.32) (xy 153.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1a657bc-b86e-467d-b1c4-e35f3a4b13b5")
 	)
 	(wire
 		(pts
@@ -6593,6 +7102,16 @@
 			(type default)
 		)
 		(uuid "c9ce7cfd-ad8c-4828-bd5e-55b2f42a0478")
+	)
+	(wire
+		(pts
+			(xy 146.05 25.4) (xy 146.05 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca008d3f-6846-4cc0-9d57-17df64db5c0f")
 	)
 	(wire
 		(pts
@@ -6706,6 +7225,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 31.75) (xy 153.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e35cbe1e-bad4-429b-9d58-ad35fcfbabc1")
+	)
+	(wire
+		(pts
+			(xy 146.05 24.13) (xy 153.67 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e365c666-f679-43f0-8ace-be3f3a79385d")
+	)
+	(wire
+		(pts
 			(xy 214.63 53.34) (xy 217.17 53.34)
 		)
 		(stroke
@@ -6793,6 +7332,16 @@
 			(type default)
 		)
 		(uuid "f8dd1836-2a5c-46fb-ae9e-1543dced13f7")
+	)
+	(wire
+		(pts
+			(xy 156.21 34.29) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab11212-a61e-4ff7-90ca-a8caef9810aa")
 	)
 	(wire
 		(pts
@@ -9132,6 +9681,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 196.85 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd16a78f-e8e3-4aba-819e-49cfc234c7d0")
 		)
@@ -9194,6 +9752,15 @@
 			)
 		)
 		(property "Description" "512K x 8 Low Power CMOS RAM, DIP-32"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Alliance AS6C4008-55PCN"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -9492,6 +10059,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8852c142-78c7-4403-91ab-151efe5c6168")
 		)
@@ -9502,71 +10078,6 @@
 			(project "ROAM"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 73.66 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13268881-eef3-4243-a532-e2af375b6955")
-		(property "Reference" "#PWR02"
-			(at 73.66 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 73.66 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "479babee-7926-43da-b12f-b7c27568d7d8")
-		)
-		(instances
-			(project "SimpleCart"
-				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9624,6 +10135,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c2b23e38-ccbf-41d0-a9d8-633119052ab5")
 		)
@@ -9658,7 +10178,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "47K"
 			(at 41.91 181.6099 0)
 			(effects
 				(font
@@ -9686,6 +10206,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 39.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 39.37 180.34 0)
 			(effects
 				(font
@@ -9756,6 +10285,15 @@
 			)
 		)
 		(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
+			(at 144.78 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Infineon FM24C64B-G"
 			(at 144.78 161.29 0)
 			(effects
 				(font
@@ -9850,6 +10388,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 68.58 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa1b6e62-a126-4100-a01d-26fbb4f5b8a5")
 		)
@@ -9860,6 +10407,72 @@
 			(project ""
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 72.39 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "299f960d-d810-4d7d-b12a-bcf9804c5a40")
+		(property "Reference" "#PWR015"
+			(at 72.39 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 72.39 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 72.39 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "831ce8c6-681f-4f75-9c6d-d15e20323e52")
+		)
+		(instances
+			(project "ROAM"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9918,6 +10531,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 67.31 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b85d3044-079d-4dae-951b-eb51266c9121")
 		)
@@ -9935,7 +10557,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 200.66 160.02 270)
+		(at 200.66 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9943,7 +10565,7 @@
 		(dnp no)
 		(uuid "41ac41b9-1992-4de5-bd09-8898f4768396")
 		(property "Reference" "#PWR026"
-			(at 196.85 160.02 0)
+			(at 196.85 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +10574,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 205.74 160.02 0)
+			(at 205.74 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9960,7 +10582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 160.02 0)
+			(at 200.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9969,7 +10591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 160.02 0)
+			(at 200.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,7 +10600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 160.02 0)
+			(at 200.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10050,6 +10672,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 106.68 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4d2f1327-fe75-473c-91b4-b947846fe856")
 		)
@@ -10109,6 +10740,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 106.68 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 106.68 166.37 0)
 			(effects
 				(font
@@ -10331,6 +10971,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d9a2236-d53a-4b72-8905-9e1650092948")
+		(property "Reference" "R4"
+			(at 149.606 32.766 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4K7"
+			(at 149.86 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "41462b2d-b4ca-4eb4-8e73-2d65b5855658")
+		)
+		(pin "1"
+			(uuid "1a616a39-7717-403f-82d1-939f5085d2cf")
+		)
+		(instances
+			(project ""
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HCT138")
 		(at 227.33 50.8 0)
 		(unit 1)
@@ -10377,6 +11093,15 @@
 			)
 		)
 		(property "Description" "3-to-8 line decoder/multiplexer inverting, DIP-16/SOIC-16/SSOP-16"
+			(at 227.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TI SN74AHC138N"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -10443,71 +11168,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 200.66 148.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6927a934-9679-46d4-bab8-613e14cde36e")
-		(property "Reference" "#PWR025"
-			(at 196.85 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 205.74 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 200.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a677e2fb-b036-47c8-aa1b-0e17833f43fc")
-		)
-		(instances
-			(project "ROAM"
-				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 248.92 49.53 0)
 		(unit 1)
@@ -10551,6 +11211,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 248.92 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 248.92 49.53 0)
 			(effects
 				(font
@@ -10618,6 +11287,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 223.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TI SN74AHC00N"
 			(at 223.52 87.63 0)
 			(effects
 				(font
@@ -10729,6 +11407,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4fd10b66-f55e-47dd-bd3b-19042ef5807f")
 		)
@@ -10788,6 +11475,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 33.02 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 33.02 175.26 0)
 			(effects
 				(font
@@ -11064,6 +11760,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 196.85 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3693fb9-d3f2-4557-8b1f-dbdd9ce6849b")
 		)
@@ -11126,6 +11831,15 @@
 			)
 		)
 		(property "Description" "Silicon Storage Technology (SSF) 512k x 8 Flash ROM"
+			(at 73.66 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Microchip SST39SF040-70-4C-PHE"
 			(at 73.66 154.94 0)
 			(effects
 				(font
@@ -11292,6 +12006,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 167.64 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "37e2be1e-0359-437d-800a-d2a8e7fa7089")
 		)
@@ -11309,7 +12032,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 154.94 38.1 0)
+		(at 156.21 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11318,7 +12041,7 @@
 		(fields_autoplaced yes)
 		(uuid "79e57ef8-af90-4493-9f63-d637f3c4f962")
 		(property "Reference" "#PWR01"
-			(at 154.94 41.91 0)
+			(at 152.4 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11327,15 +12050,16 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 154.94 33.02 0)
+			(at 160.02 34.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 38.1 0)
+			(at 156.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11344,7 +12068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 38.1 0)
+			(at 156.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +12077,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 154.94 38.1 0)
+			(at 156.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11485,6 +12209,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 222.25 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 222.25 26.67 0)
 			(effects
 				(font
@@ -11626,6 +12359,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 106.68 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4bd558aa-8562-43cd-805f-ed87c04c2f60")
 		)
@@ -11636,6 +12378,151 @@
 			(project "ROAM"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 73.66 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "858dbc0c-817f-4a78-b60b-fb4f06278a9c")
+		(property "Reference" "#PWR02"
+			(at 73.66 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 73.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33d1e194-96e8-4328-a202-d468fcb8d7a2")
+		)
+		(instances
+			(project "ROAM"
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 153.67 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ebff17d-7d82-40e6-9ad1-fcdf2f27b42b")
+		(property "Reference" "F1"
+			(at 154.432 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "250mA hold / 500mA trip"
+			(at 154.432 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT100"
+			(at 154.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Littelfuse RXEF030S"
+			(at 153.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e10d871-0fa5-48b4-a7d1-1f477b385331")
+		)
+		(pin "1"
+			(uuid "ec0af99d-7fa5-4403-8273-156398dd6ee8")
+		)
+		(instances
+			(project ""
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11693,6 +12580,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "Wurth 418117270904"
+			(at 124.46 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "92a952fe-91f8-41aa-b194-0d7ee5be8b45")
 		)
@@ -11721,6 +12617,72 @@
 			(project "ROAM"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 153.67 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "970af2ae-da2b-47e1-873c-765092c89443")
+		(property "Reference" "#PWR027"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 153.67 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 153.67 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e79b49b5-b9d0-4304-9568-4677c292650f")
+		)
+		(instances
+			(project ""
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11836,6 +12798,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 106.68 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 106.68 161.29 0)
 			(effects
 				(font
@@ -11979,6 +12950,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TI SN74AHC00N"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "a7dfe07e-5c63-428f-9a68-dcf32f01001f")
 		)
@@ -12084,6 +13064,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 114.3 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8df4f654-1f20-4b96-b92f-771914955db8")
 		)
@@ -12167,17 +13156,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 72.39 27.94 0)
+		(lib_id "power:+5VD")
+		(at 200.66 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b8e8d8d0-d63a-4f16-b7e3-d97eecd868b2")
-		(property "Reference" "#PWR015"
-			(at 72.39 31.75 0)
+		(uuid "b87da4dc-bde0-45de-93e4-9e621c342351")
+		(property "Reference" "#PWR025"
+			(at 196.85 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12185,16 +13174,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 72.39 22.86 0)
+		(property "Value" "+5VD"
+			(at 204.47 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 27.94 0)
+			(at 200.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12203,7 +13193,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 27.94 0)
+			(at 200.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12211,8 +13201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 72.39 27.94 0)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 200.66 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12221,12 +13211,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2372f9ee-021a-437c-bd8b-020dc0d8ae5e")
+			(uuid "5a7b0f84-23db-4298-bdde-3c6bb2b40192")
 		)
 		(instances
-			(project "2Cart"
+			(project "ROAM"
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
-					(reference "#PWR015")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12346,6 +13336,15 @@
 			)
 		)
 		(property "Description" "Commander X16 Expansion port alternative symbol"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -12796,6 +13795,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TI SN74AHC00N"
+			(at 238.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "a7dfe07e-5c63-428f-9a68-dcf32f010020")
 		)
@@ -12958,6 +13966,15 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
+			(at 119.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TI SN74AHC00N"
 			(at 119.38 101.6 0)
 			(effects
 				(font
@@ -13204,6 +14221,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TI SN74AHC00N"
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "a7dfe07e-5c63-428f-9a68-dcf32f010022")
 		)
@@ -13251,6 +14277,83 @@
 				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 146.05 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db7b9856-9621-465e-9b0c-d68dbf5f0c81")
+		(property "Reference" "D1"
+			(at 146.304 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Overcurrent"
+			(at 145.034 31.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "300cf0ee-a23c-4b4f-a2a5-92e1f69eb0f2")
+		)
+		(pin "1"
+			(uuid "b967c99e-46b6-4ff8-bc2b-278f1f447a45")
+		)
+		(instances
+			(project ""
+				(path "/e8ad17fe-c153-4da3-ae72-ded364d25a21"
+					(reference "D1")
+					(unit 1)
 				)
 			)
 		)
@@ -13376,6 +14479,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 226.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9967412-e658-408f-8f1d-8a731af601aa")
 		)
@@ -13435,6 +14547,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 248.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 248.92 43.18 0)
 			(effects
 				(font
